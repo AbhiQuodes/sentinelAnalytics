@@ -14,18 +14,18 @@ const FormContainer = () => {
 
   const staticContent = 
     [
-      "Estimated Soil Moisture: ", 
-      "Estimated Soil Roughness: ", 
-      "Incidence Angle: ", 
+      "Optimized Dielectric Constant: ", 
+      "Wave Number: ",
       "Mean Height: ", 
       "Model Sigma Vh: ", 
       "Model Sigma Vv: ", 
-      "Optimized Dielectric Constant: ", 
-      "Optimized Surface Roughness: ", 
       "Rms Height: ", 
       "Sigma Vh Linear: ", 
       "Sigma Vv Linear: ", 
-      "Wave Number: "
+      "Estimated Soil Moisture: ", 
+      "Estimated Soil Roughness: ", 
+      "Optimized Surface Roughness: ", 
+      "Incidence Angle: "
     
     
   ];
