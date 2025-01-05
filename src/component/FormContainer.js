@@ -12,19 +12,22 @@ const FormContainer = () => {
   // let modelSigmaVv,meanHeight,rmsHeight,estimateSoilMoisture,estimateSoilRoughness;
   let index = 0;
 
-  const staticContent = [
-    "sigma_vv (linear scale):",
-    "sigma_vh (linear scale):",
-    "Incidence angle (theta) in radians:",
-    "Wave number (k):",
-    "Optimized dielectric constant (epsilon):",
-    "Optimized surface roughness (s):",
-    "Modeled sigma_vv:",
-    "Modeled sigma_vh:",
-    "Mean height:",
-    "RMS height (surface roughness):",
-    "Estimated Soil Moisture:",
-    "Estimated Soil Roughness:",
+  const staticContent = 
+    [
+      "Estimated Soil Moisture: ", 
+      "Estimated Soil Roughness: ", 
+      "Incidence Angle: ", 
+      "Mean Height: ", 
+      "Model Sigma Vh: ", 
+      "Model Sigma Vv: ", 
+      "Optimized Dielectric Constant: ", 
+      "Optimized Surface Roughness: ", 
+      "Rms Height: ", 
+      "Sigma Vh Linear: ", 
+      "Sigma Vv Linear: ", 
+      "Wave Number: "
+    
+    
   ];
 
   const callApi = async () => {
