@@ -1,0 +1,17 @@
+*{
+    font-family:'Poppins' ;
+}
+::-webkit-scrollbar {
+    height: 0px;
+    width: 2px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(216, 230, 230);
+    border-radius: 2px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(41, 40, 35);
+    border-radius: 2px;
+  }
