@@ -26,10 +26,11 @@ function App() {
      
         setShowInstallBox(true);
     }
-    return () => {
+    // return () => {
+    //   pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
 
-      pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
-    };
+      // pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
+    // };
   }, []);
 
   const handleInstall = () => {
@@ -52,7 +53,7 @@ function App() {
         {deferredPrompt && showInstallBox && (
           <div className="install-box">
             <img className="install-img" src={appLogoImg} alt="app-logo"></img>
-            <p className="install-title"> Sentinel Analysis</p>
+            <div className="install-title"> Sentinel Analysis</div>
             <button className="install-btn" onClick={handleInstall}>
               {" "}
               Install App
