@@ -11,7 +11,7 @@
     position:fixed;
     top:10px;
     left:calc(50vw - 160px);
-    z-index: 300;
+    z-index: 30;
     transition: all 0.5s linear 0s;
 }
 .install-title{
@@ -20,6 +20,8 @@
   font-weight: 400;
   width:fit-content;
   text-align: center;
+  color:#fff;
+  font-size: 18px;
   
 }
 .install-img{
@@ -29,11 +31,13 @@
     border-radius: 12px;;
 }
 .install-btn{
-    color:blueviolet;
+    color:rgb(92, 149, 214);
     display:inline-block;
     border: none;
     background: transparent;
     text-align: center;
+    font-size: 18px;
+
 
     
 

@@ -87,7 +87,7 @@ const FormContainer = () => {
           onChange={(e) => {
             setTheta(e.target.value);
           }}
-          type="number"
+          type="text"
           className="theta"
           placeholder="Enter incidence angle in degrees"
         ></input>

@@ -23,14 +23,11 @@ function App() {
   useEffect(() => {
     pageRef.current.addEventListener("touchstart", handleInstallDisplay);
     if (displayWidth <= 600) {
-      setTimeout(() => {
+     
         setShowInstallBox(true);
-      }, 2000);
     }
     return () => {
-      clearTimeout(() => {
-        setShowInstallBox(true);
-      });
+
       pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
     };
   }, []);
