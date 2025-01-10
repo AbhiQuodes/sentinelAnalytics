@@ -26,11 +26,10 @@ function App() {
      
         setShowInstallBox(true);
     }
-    // return () => {
-    //   pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
+    return () => {
+      pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
 
-      // pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
-    // };
+    };
   }, []);
 
   const handleInstall = () => {
@@ -46,7 +45,7 @@ function App() {
   };
   return (
     <div className="App">
-      <div onClick={handleInstallDisplay} ref={pageRef}>
+      <div className="wrapper" onClick={handleInstallDisplay} ref={pageRef}>
         <FormContainer></FormContainer>
       </div>
       <div>

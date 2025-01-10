@@ -1,5 +1,8 @@
 /* General styles for the entire input form */
-body{
+.wrapper{
+    display:flex;
+    width:100vw;
+    height:100vh;
     background-color: rgba(222, 207, 207, 0.623);
 }
 .input-form {
