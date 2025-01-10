@@ -16,7 +16,6 @@ function App() {
 
   const handleInstallDisplay = () => {
     if (showInstallBox) {
-      console.log("scrolling");
       setShowInstallBox(false);
       pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
     }
@@ -49,14 +48,14 @@ function App() {
   };
   return (
     <div className="App">
-      <div onClick={handleInstallDisplay} ref={pageRef}>
+      <div ref={pageRef}>
         <FormContainer></FormContainer>
       </div>
       <div>
         {deferredPrompt && showInstallBox && (
           <div className="install-box">
             <img className="install-img" src={appLogoImg} alt="app-logo"></img>
-            <h1 className="install-title"> Sentinel Analysis</h1>
+            <p className="install-title"> Sentinel Analysis</p>
             <button className="install-btn" onClick={handleInstall}>
               {" "}
               Install App
