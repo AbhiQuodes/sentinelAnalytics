@@ -1,0 +1,41 @@
+.install-box{
+    display:flex;
+    gap:30px;
+    width:320px;
+    padding:10px 20px;
+    background-color: rgb(40, 33, 33);
+    color:#fff;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 14px;
+    position:fixed;
+    top:10px;
+    left:calc(50vw - 160px);
+    z-index: 300;
+    transition: all 0.5s linear 0s;
+}
+.install-title{
+  display:inline-block;
+  font-size:small;
+  font-weight: 400;
+  width:fit-content;
+  text-align: center;
+  
+}
+.install-img{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    border-radius: 12px;;
+}
+.install-btn{
+    color:blueviolet;
+    display:inline-block;
+    border: none;
+    background: transparent;
+    text-align: center;
+
+    
+
+}
+
