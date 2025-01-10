@@ -55,7 +55,7 @@ const FormContainer = () => {
   };
 
   return (
-    <div>
+    <div className="tool-box">
       <h1>Sentinel-1A Backscatter Analysis</h1>
 
       <div className="input-form">

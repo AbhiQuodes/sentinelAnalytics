@@ -3,8 +3,11 @@
     display:flex;
     width:100vw;
     height:100vh;
+    flex-direction: column;
+    /* justify-content: center; */
     background-color: rgba(222, 207, 207, 0.623);
 }
+
 .input-form {
     max-width: 400px;
     margin: 0 auto;
@@ -24,6 +27,11 @@
 h1{
     text-align: center;
     color: #317f69fe;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+
+   
 
 }
 /* Labels */

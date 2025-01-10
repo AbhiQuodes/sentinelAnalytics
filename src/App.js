@@ -27,7 +27,7 @@ function App() {
         setShowInstallBox(true);
     }
     return () => {
-      pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
+      // pageRef.current.removeEventListener("touchstart", handleInstallDisplay);
 
     };
   }, []);
