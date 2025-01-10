@@ -56,7 +56,7 @@ function App() {
         {deferredPrompt && showInstallBox && (
           <div className="install-box">
             <img className="install-img" src={appLogoImg} alt="app-logo"></img>
-            <h1 className="install-title"> Aryan Enterprises</h1>
+            <h1 className="install-title"> Sentinel Analysis</h1>
             <button className="install-btn" onClick={handleInstall}>
               {" "}
               Install App
