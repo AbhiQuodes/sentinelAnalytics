@@ -46,7 +46,7 @@ function App() {
   };
   return (
     <div className="App">
-      <div ref={pageRef}>
+      <div onClick={handleInstallDisplay} ref={pageRef}>
         <FormContainer></FormContainer>
       </div>
       <div>
